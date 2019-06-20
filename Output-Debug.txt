@@ -1,0 +1,19 @@
+﻿'pointers.exe' (Win32): Loaded 'C:\Users\iD Student\source\repos\pointers\Debug\pointers.exe'. Symbols loaded.
+'pointers.exe' (Win32): Loaded 'C:\Windows\SysWOW64\ntdll.dll'. 
+'pointers.exe' (Win32): Loaded 'C:\Windows\SysWOW64\kernel32.dll'. 
+'pointers.exe' (Win32): Loaded 'C:\Windows\SysWOW64\KernelBase.dll'. 
+'pointers.exe' (Win32): Loaded 'C:\Windows\SysWOW64\msvcp140d.dll'. 
+'pointers.exe' (Win32): Loaded 'C:\Windows\SysWOW64\vcruntime140d.dll'. 
+'pointers.exe' (Win32): Loaded 'C:\Windows\SysWOW64\ucrtbased.dll'. 
+The thread 0x1ebc has exited with code 0 (0x0).
+'pointers.exe' (Win32): Loaded 'C:\Windows\SysWOW64\kernel.appcore.dll'. 
+'pointers.exe' (Win32): Loaded 'C:\Windows\SysWOW64\msvcrt.dll'. 
+'pointers.exe' (Win32): Loaded 'C:\Windows\SysWOW64\rpcrt4.dll'. 
+'pointers.exe' (Win32): Loaded 'C:\Windows\SysWOW64\sspicli.dll'. 
+'pointers.exe' (Win32): Loaded 'C:\Windows\SysWOW64\cryptbase.dll'. 
+'pointers.exe' (Win32): Loaded 'C:\Windows\SysWOW64\bcryptprimitives.dll'. 
+'pointers.exe' (Win32): Loaded 'C:\Windows\SysWOW64\sechost.dll'. 
+The thread 0x3f3c has exited with code 0 (0x0).
+The thread 0x3954 has exited with code 0 (0x0).
+The thread 0x396c has exited with code 0 (0x0).
+The program '[12876] pointers.exe' has exited with code 0 (0x0).
