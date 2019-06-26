@@ -1,12 +1,13 @@
 #pragma once
 #include <SFML/Graphics.hpp>
 
+
 using namespace std;
 
 #define BOARD_WIDTH 10 
 #define BOARD_HEIGHT 22
 #define BLOCK_SIZE 40 
-enum BlockType { NONE, LB, O, G, P, Y, PR, R, B };
+enum BlockType { NONE, LB, O, G, P, Y, PR, B };
 
 void drawGrid(const std::vector<std::vector<BlockType>>& grid, sf::RenderWindow& window);
 
