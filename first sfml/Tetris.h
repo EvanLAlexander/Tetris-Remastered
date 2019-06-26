@@ -95,7 +95,7 @@ namespace Shapes {
 
 		{ { BlockType::PR, BlockType::PR, BlockType::PR},
 		{ BlockType::NONE, BlockType::PR, BlockType::NONE },
-		{ BlockType::NONE, BlockType::PR,  BlockType::NONE} },
+		{ BlockType::NONE, BlockType::NONE,  BlockType::NONE} },
 
 
 		{ { BlockType::NONE, BlockType::NONE, BlockType::PR },

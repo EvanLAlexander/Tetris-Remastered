@@ -43,11 +43,25 @@ int main() {
 	testText.setFillColor(sf::Color::White);
 	testText.setString("I hope this works!! ");
 
-	sf::Texture Cactusy;
-	Cactusy.loadFromFile("Textures/cactusy.png");
+	sf::Sprite Cactusy;
+	sf::Texture cactusyTex;
+	cactusyTex.loadFromFile("textures/cactusy.png");
+	Cactusy.setPosition(450, 500);
+	Cactusy.setScale(8, 8);
+	Cactusy.setTexture(cactusyTex);
 
 	sf::IntRect rect[7];
 
+	rect[0] = sf::IntRect(0, 0, 24, 24);
+	rect[1] = sf::IntRect(24, 0, 24, 24);
+	rect[2] = sf::IntRect(48, 0, 24, 24);
+	rect[3] = sf::IntRect(0, 24, 24, 24);
+	rect[4] = sf::IntRect(24, 24, 24, 24);
+	rect[5] = sf::IntRect(48, 24, 24, 24);
+	rect[6] = sf::IntRect(0, 48, 24, 24);
+
+	sf::Clock cactusTime;
+	int imgCount = 0;
 
 	while (window.isOpen())
 	{
@@ -82,9 +96,6 @@ int main() {
 
 		}
 
-
-
-
 		dropCounter++;
 		if (dropCounter > curDropFrames) {
 			dropCounter = 0;
@@ -101,13 +112,22 @@ int main() {
 			}
 		}
 
-		
+		if (cactusTime.getElapsedTime().asSeconds() > 0.5f) {
+			if (imgCount < 6)
+				imgCount++;
+			else
+				imgCount = 0;
+			cactusTime.restart();
+		}
+		//Cactusy.setTextureRect(rect[imgCount]);
+
 
 		window.clear(sf::Color::Blue);
 		falling.drawNext(window);
 		drawGrid(board, window);
 		falling.drawPentomino(window);
 		window.draw(testText);
+		window.draw(Cactusy);
 		window.display();
 
 		dropFrames = 20 - lines;
