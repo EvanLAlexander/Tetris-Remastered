@@ -1,0 +1,19 @@
+﻿  Pentomino.cpp
+  Tetris.cpp
+C:\Users\iD Student\source\repos\Tetris Remastered Final\Tetris Remastered Final\Pentomino.cpp(63,95): warning C4267:  'argument': conversion from 'size_t' to 'T', possible loss of data
+C:\Users\iD Student\source\repos\Tetris Remastered Final\Tetris Remastered Final\Pentomino.cpp(63,95): warning C4267:         with
+C:\Users\iD Student\source\repos\Tetris Remastered Final\Tetris Remastered Final\Pentomino.cpp(63,95): warning C4267:         [
+C:\Users\iD Student\source\repos\Tetris Remastered Final\Tetris Remastered Final\Pentomino.cpp(63,95): warning C4267:             T=int
+C:\Users\iD Student\source\repos\Tetris Remastered Final\Tetris Remastered Final\Pentomino.cpp(63,95): warning C4267:         ]
+C:\Users\iD Student\source\repos\Tetris Remastered Final\Tetris Remastered Final\Tetris.cpp(158,67): warning C4244:  'argument': conversion from 'int' to 'T', possible loss of data
+C:\Users\iD Student\source\repos\Tetris Remastered Final\Tetris Remastered Final\Tetris.cpp(158,67): warning C4244:         with
+C:\Users\iD Student\source\repos\Tetris Remastered Final\Tetris Remastered Final\Tetris.cpp(158,67): warning C4244:         [
+C:\Users\iD Student\source\repos\Tetris Remastered Final\Tetris Remastered Final\Tetris.cpp(158,67): warning C4244:             T=float
+C:\Users\iD Student\source\repos\Tetris Remastered Final\Tetris Remastered Final\Tetris.cpp(158,67): warning C4244:         ]
+  Generating Code...
+C:\Users\iD Student\source\repos\Tetris Remastered Final\Tetris Remastered Final\Tetris.cpp(158,43): warning C4244:  'argument': conversion from 'int' to 'T', possible loss of data
+C:\Users\iD Student\source\repos\Tetris Remastered Final\Tetris Remastered Final\Tetris.cpp(158,43): warning C4244:         with
+C:\Users\iD Student\source\repos\Tetris Remastered Final\Tetris Remastered Final\Tetris.cpp(158,43): warning C4244:         [
+C:\Users\iD Student\source\repos\Tetris Remastered Final\Tetris Remastered Final\Tetris.cpp(158,43): warning C4244:             T=float
+C:\Users\iD Student\source\repos\Tetris Remastered Final\Tetris Remastered Final\Tetris.cpp(158,43): warning C4244:         ]
+  Tetris Remastered Final.vcxproj -> C:\Users\iD Student\source\repos\Tetris Remastered Final\x64\Debug\Tetris Remastered Final.exe
